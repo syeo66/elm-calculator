@@ -1,0 +1,46 @@
+button:focus { outline:0; }
+
+body {
+    width: 100%;
+    position: relative;
+}
+
+#calculator {
+    position: relative;
+    display: block;
+    margin: 10% auto;
+    width: 225px;
+}
+
+#calculator button {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 3px solid #aaa;
+    background-color: #eee;
+    cursor: point;
+}
+
+#calculator button:hover {
+    background-color: #ccc;
+}
+
+#calculator button:active {
+    background-color: #fff;
+}
+
+#calculator #display {
+    border: 3px solid #aaa;
+    background-color: #eee;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-align: right;
+}
+
+#calculator .zero {
+    width: 85px;
+}
